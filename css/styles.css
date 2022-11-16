@@ -1,10 +1,11 @@
 * {
     margin:0;
     padding:0;
+    background-color: #F8F0DF;
 }
 /* Nav bar */
 img.logo {
-  height: 80px;
+  height: 100px;
   margin-left: 40px;
 }
 
@@ -22,16 +23,17 @@ header {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: lightsteelblue;
+  background-color: #F8F0DF;
   height: 75px;
 }
 
 header li {
   margin: 20px;
+  font-size: 22px;
 }
 
 header li a {
-  color: black;
+  color: #395B64;
   text-decoration: none;
 }
 
@@ -41,11 +43,13 @@ ul.topnav li {
 }
 
 ul.topnav li a:hover:not(.active) {
-  background-color:lightblue;
+  background-color:#F2DEBA;
+  border-radius: 7px;
 }
-
+s
 ul.topnav li a.active {
-  background-color: lightcyan;
+  background-color: #F2DEBA;
+  border-radius: 7px;
 }
 ul.topnav li.right {
   float: right;
@@ -59,7 +63,9 @@ ul.topnav li.right {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
+  min-width: 250px;
+  height: auto;
   position: relative;
   margin: auto;
 }
@@ -78,6 +84,7 @@ ul.topnav li.right {
   margin-top: -22px;
   padding: 16px;
   color: white;
+  background-color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -134,7 +141,8 @@ ul.topnav li.right {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #F2DEBA;
+  border-radius: 7px;
 }
 
 /* Fading animation */
@@ -146,4 +154,16 @@ ul.topnav li.right {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Welcome section*/
+
+.welcome {
+  display: flex;
+}
+
+.welcome-child {
+  flex: 1;
+  align-items: center;
+  align-content: center;
 }
