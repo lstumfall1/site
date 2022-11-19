@@ -1,7 +1,8 @@
 * {
     margin:0;
     padding:0;
-    background-color: #F8F0DF;
+    background-color: #FEFBF3;
+    color: #395B64;
 }
 /* Nav bar */
 img.logo {
@@ -11,7 +12,6 @@ img.logo {
 
 .logo {
   float: left;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,7 +23,7 @@ header {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F8F0DF;
+  background-color: #FEFBF3;
   height: 75px;
 }
 
@@ -43,7 +43,7 @@ ul.topnav li {
 }
 
 ul.topnav li a:hover:not(.active) {
-  background-color:#F2DEBA;
+  background-color:#F2DEBA;;
   border-radius: 7px;
 }
 s
@@ -160,10 +160,33 @@ ul.topnav li.right {
 
 .welcome {
   display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .welcome-child {
   flex: 1;
   align-items: center;
   align-content: center;
+}
+
+.aloha {
+  display: block;
+  margin-top: 10em;
+  margin-bottom: 2em;
+  font-size: 30px;
+  align-items: center;
+  color: #395B64;
+}
+
+h3 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hello {
+  width: 35em;
+  font-size: 22px;
 }
