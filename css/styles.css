@@ -159,25 +159,31 @@ ul.topnav li.right {
 /* Welcome section*/
 
 .welcome {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   flex-direction: row;
   margin-top: 30px;
   padding-bottom: 40px;
   margin-bottom: 40px;
 }
 
-.welcome-child {
-  flex: 1;
-  align-items: center;
+.welcome-img {
+  margin-left: 30%;
   align-content: center;
+  padding: auto;
+}
+
+.welcome-text {
+  
+  padding: auto;
 }
 
 .aloha {
   display: block;
-  margin-top: 10em;
+  text-align: center;
+  margin-top: 5em;
   margin-bottom: 2em;
   font-size: 30px;
-  align-items: center;
   color: #395B64;
 }
 
@@ -187,6 +193,10 @@ h3 {
 }
 
 .hello {
+  position: relative;
+  left: 10%;
+  text-indent: 10%;
   width: 35em;
   font-size: 22px;
 }
+
